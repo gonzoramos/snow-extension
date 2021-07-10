@@ -26,7 +26,7 @@ export const Button = () => {
   return (
     <div className="buttonContainer">
       <button className="snowButton" onClick={onClick}>
-        {snowing ? "Disable the snow 🥶" : "Let it snow! ❄️"}
+        {snowing ? "Disable the snow 🥶" : "Let it snow yo! ❄️"}
       </button>
     </div>
   );

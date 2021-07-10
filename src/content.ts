@@ -1,6 +1,8 @@
 import "./content.css";
 import { MessageTypes } from "./types";
 
+console.log("Content script loaded");
+
 const body = document.getElementsByTagName("body");
 
 const snowflakesContainer = document.createElement("div");
